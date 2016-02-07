@@ -1,0 +1,72 @@
+\hypertarget{encrypt_8h}{}\section{encrypt.\+h File Reference}
+\label{encrypt_8h}\index{encrypt.\+h@{encrypt.\+h}}
+{\ttfamily \#include $<$iostream$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{encrypt_8h_a81c6d068a41d53e8b1a4675fe74b0502}{encrypt\+Flags} (std\+::string call, bool encrypt)
+\begin{DoxyCompactList}\small\item\em separates and reads the flags from the encrypt/decrypt command, then calls {\ttfamily encrypt} function and passes it the flags as arguments \end{DoxyCompactList}\item 
+void \hyperlink{encrypt_8h_a5aad3e0e25ec430af26046f4a8de224b}{print\+Default\+Settings} ()
+\begin{DoxyCompactList}\small\item\em prints the default settings \end{DoxyCompactList}\item 
+void \hyperlink{encrypt_8h_a104b3a0f3fe26dec68dbba7595c32967}{change\+Root} ()
+\begin{DoxyCompactList}\small\item\em asks the user to change the root for input/output files \end{DoxyCompactList}\item 
+void \hyperlink{encrypt_8h_aea5fb1ad2c10ef3b8735d4dab6d28188}{print\+Root} ()
+\begin{DoxyCompactList}\small\item\em prints the root for input/output files \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+functions used to care for the input/output and calling the encode\+Message function 
+
+\subsection{Function Documentation}
+\hypertarget{encrypt_8h_a104b3a0f3fe26dec68dbba7595c32967}{}\index{encrypt.\+h@{encrypt.\+h}!change\+Root@{change\+Root}}
+\index{change\+Root@{change\+Root}!encrypt.\+h@{encrypt.\+h}}
+\subsubsection[{change\+Root()}]{\setlength{\rightskip}{0pt plus 5cm}void change\+Root (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{encrypt_8h_a104b3a0f3fe26dec68dbba7595c32967}
+
+
+asks the user to change the root for input/output files 
+
+\hypertarget{encrypt_8h_a81c6d068a41d53e8b1a4675fe74b0502}{}\index{encrypt.\+h@{encrypt.\+h}!encrypt\+Flags@{encrypt\+Flags}}
+\index{encrypt\+Flags@{encrypt\+Flags}!encrypt.\+h@{encrypt.\+h}}
+\subsubsection[{encrypt\+Flags(std\+::string call, bool encrypt)}]{\setlength{\rightskip}{0pt plus 5cm}void encrypt\+Flags (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{call, }
+\item[{bool}]{encrypt}
+\end{DoxyParamCaption}
+)}\label{encrypt_8h_a81c6d068a41d53e8b1a4675fe74b0502}
+
+
+separates and reads the flags from the encrypt/decrypt command, then calls {\ttfamily encrypt} function and passes it the flags as arguments 
+
+
+\begin{DoxyParams}{Parameters}
+{\em call} & the user command \\
+\hline
+{\em encrypt} & true if user called \textquotesingle{}encrypt\textquotesingle{} or \textquotesingle{}e\textquotesingle{}, false if he called \textquotesingle{}decrypt\textquotesingle{} or \textquotesingle{}d\textquotesingle{} \\
+\hline
+\end{DoxyParams}
+\hypertarget{encrypt_8h_a5aad3e0e25ec430af26046f4a8de224b}{}\index{encrypt.\+h@{encrypt.\+h}!print\+Default\+Settings@{print\+Default\+Settings}}
+\index{print\+Default\+Settings@{print\+Default\+Settings}!encrypt.\+h@{encrypt.\+h}}
+\subsubsection[{print\+Default\+Settings()}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Default\+Settings (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{encrypt_8h_a5aad3e0e25ec430af26046f4a8de224b}
+
+
+prints the default settings 
+
+\hypertarget{encrypt_8h_aea5fb1ad2c10ef3b8735d4dab6d28188}{}\index{encrypt.\+h@{encrypt.\+h}!print\+Root@{print\+Root}}
+\index{print\+Root@{print\+Root}!encrypt.\+h@{encrypt.\+h}}
+\subsubsection[{print\+Root()}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Root (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{encrypt_8h_aea5fb1ad2c10ef3b8735d4dab6d28188}
+
+
+prints the root for input/output files 
+

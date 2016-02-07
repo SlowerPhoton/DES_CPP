@@ -1,0 +1,42 @@
+\hypertarget{key_8h}{}\section{key.\+h File Reference}
+\label{key_8h}\index{key.\+h@{key.\+h}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{key_8h_ae4cfbf602f0d2d4240775984e288de6c}{get\+Key} (int key\mbox{[}8\mbox{]})
+\item 
+void \hyperlink{key_8h_aca921bfc4705399a5e06d840c8dc6e7d}{key\+To8\+Bytes} (char key\+Word\mbox{[}$\,$\mbox{]}, int key\mbox{[}8\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+functions used to get and prepare the key 
+
+\subsection{Function Documentation}
+\hypertarget{key_8h_ae4cfbf602f0d2d4240775984e288de6c}{}\index{key.\+h@{key.\+h}!get\+Key@{get\+Key}}
+\index{get\+Key@{get\+Key}!key.\+h@{key.\+h}}
+\subsubsection[{get\+Key(int key[8])}]{\setlength{\rightskip}{0pt plus 5cm}void get\+Key (
+\begin{DoxyParamCaption}
+\item[{int}]{key\mbox{[}8\mbox{]}}
+\end{DoxyParamCaption}
+)}\label{key_8h_ae4cfbf602f0d2d4240775984e288de6c}
+gets string from the user and calls key\+To8\+Bytes to convert it into key 
+\begin{DoxyParams}{Parameters}
+{\em key} & array to save the key \\
+\hline
+\end{DoxyParams}
+\hypertarget{key_8h_aca921bfc4705399a5e06d840c8dc6e7d}{}\index{key.\+h@{key.\+h}!key\+To8\+Bytes@{key\+To8\+Bytes}}
+\index{key\+To8\+Bytes@{key\+To8\+Bytes}!key.\+h@{key.\+h}}
+\subsubsection[{key\+To8\+Bytes(char key\+Word[], int key[8])}]{\setlength{\rightskip}{0pt plus 5cm}void key\+To8\+Bytes (
+\begin{DoxyParamCaption}
+\item[{char}]{key\+Word\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{key\mbox{[}8\mbox{]}}
+\end{DoxyParamCaption}
+)}\label{key_8h_aca921bfc4705399a5e06d840c8dc6e7d}
+converts a string to 8-\/byte key 
+\begin{DoxyParams}{Parameters}
+{\em key\+Word} & the string to be converted \\
+\hline
+{\em key} & array of 8 bytes to save the key \\
+\hline
+\end{DoxyParams}

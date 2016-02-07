@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="DESFinal" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/DESFinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/DESFinal" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="binary.cpp" />
+		<Unit filename="binary.h" />
+		<Unit filename="callFunction.cpp" />
+		<Unit filename="callFunction.h" />
+		<Unit filename="cin.cpp" />
+		<Unit filename="cin.h" />
+		<Unit filename="debug.cpp" />
+		<Unit filename="debug.h" />
+		<Unit filename="enOrDecrypt.cpp" />
+		<Unit filename="enOrDecrypt.h" />
+		<Unit filename="encodeMessage.cpp" />
+		<Unit filename="encodeMessage.h" />
+		<Unit filename="encrypt.cpp" />
+		<Unit filename="encrypt.h" />
+		<Unit filename="key.cpp" />
+		<Unit filename="key.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="message.cpp" />
+		<Unit filename="message.h" />
+		<Unit filename="subkeys.cpp" />
+		<Unit filename="subkeys.h" />
+		<Unit filename="typeConverter.cpp" />
+		<Unit filename="typeConverter.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

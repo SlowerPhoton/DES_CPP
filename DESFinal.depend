@@ -1,0 +1,106 @@
+# depslib dependency file v1.0
+1454843441 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\main.cpp
+	<iostream>
+	"callFunction.h"
+
+1447610220 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\debug.cpp
+	"debug.h"
+	<iostream>
+	<string.h>
+
+1447609766 c:\instal\codeblocks\share\codeblocks\programy\desfinal\debug.h
+
+1447663872 c:\instal\codeblocks\share\codeblocks\programy\desfinal\typeconverter.h
+
+1447663871 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\typeconverter.cpp
+	"typeConverter.h"
+
+1454776912 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\enordecrypt.cpp
+	"enOrDecrypt.h"
+	"cin.h"
+	<iostream>
+	<string.h>
+
+1447668204 c:\instal\codeblocks\share\codeblocks\programy\desfinal\enordecrypt.h
+
+1454843033 c:\instal\codeblocks\share\codeblocks\programy\desfinal\message.h
+	<iostream>
+	<vector>
+
+1454843033 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\message.cpp
+	"message.h"
+	<iostream>
+	<vector>
+	<limits>
+	"cin.h"
+
+1454843283 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\key.cpp
+	"key.h"
+	<iostream>
+	<limits.h>
+	<fstream>
+	<stdio.h>
+	<string.h>
+
+1454843200 c:\instal\codeblocks\share\codeblocks\programy\desfinal\key.h
+
+1447668440 c:\instal\codeblocks\share\codeblocks\programy\desfinal\subkeys.h
+
+1447668357 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\subkeys.cpp
+	"subkeys.h"
+	"binary.h"
+
+1454845050 c:\instal\codeblocks\share\codeblocks\programy\desfinal\encodemessage.h
+
+1447616653 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\binaty.cpp
+
+1447666230 c:\instal\codeblocks\share\codeblocks\programy\desfinal\binary.h
+
+1447663812 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\binary.cpp
+	"binary.h"
+
+1454843543 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\encodemessage.cpp
+	"encodeMessage.h"
+	"encrypt.h"
+	"typeConverter.h"
+	"binary.h"
+
+1454842021 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\callfunction.cpp
+	"callFunction.h"
+	"cin.h"
+	"encrypt.h"
+	<iostream>
+	<string>
+
+1454843441 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\encrypt.cpp
+	"encrypt.h"
+	"binary.h"
+	"message.h"
+	"encrypt.h"
+	"encodeMessage.h"
+	"key.h"
+	"typeConverter.h"
+	"subkeys.h"
+	"cin.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<cstdlib>
+	<limits>
+	<string>
+
+1454843439 c:\instal\codeblocks\share\codeblocks\programy\desfinal\callfunction.h
+	<iostream>
+
+1454843437 c:\instal\codeblocks\share\codeblocks\programy\desfinal\encrypt.h
+	<iostream>
+
+1454754648 source:c:\instal\codeblocks\share\codeblocks\programy\desfinal\cin.cpp
+	"cin.h"
+	<string>
+	<iostream>
+	<limits>
+
+1454843432 c:\instal\codeblocks\share\codeblocks\programy\desfinal\cin.h
+	<iostream>
+

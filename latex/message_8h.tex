@@ -1,0 +1,81 @@
+\hypertarget{message_8h}{}\section{message.\+h File Reference}
+\label{message_8h}\index{message.\+h@{message.\+h}}
+{\ttfamily \#include $<$iostream$>$}\\*
+{\ttfamily \#include $<$vector$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{message_8h_a45a27e23d9cb7d50f88b8a48a444cf66}{padding} (int elements\+In\+Message)
+\item 
+void \hyperlink{message_8h_a08e6db4e851fc511b7b8f8321908f5d2}{get\+Message} (std\+::vector$<$ unsigned char $>$ \&message, int input\+S)
+\item 
+void \hyperlink{message_8h_af7578bee08f243ac9a45e208f12f89fa}{message\+Expand} (std\+::vector$<$ unsigned char $>$ \&message)
+\item 
+void \hyperlink{message_8h_a0013bdf489197854c34670d0b4e713cf}{message\+To\+Binary} (bool binary\+Message\mbox{[}64\mbox{]}, std\+::vector$<$ unsigned char $>$ \&message, size\+\_\+t from\+Pos)
+\begin{DoxyCompactList}\small\item\em converts the message in form of unsigned chars into 64-\/bit binary message \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+functions used to get and prepare the message 
+
+\subsection{Function Documentation}
+\hypertarget{message_8h_a08e6db4e851fc511b7b8f8321908f5d2}{}\index{message.\+h@{message.\+h}!get\+Message@{get\+Message}}
+\index{get\+Message@{get\+Message}!message.\+h@{message.\+h}}
+\subsubsection[{get\+Message(std\+::vector$<$ unsigned char $>$ \&message, int input\+S)}]{\setlength{\rightskip}{0pt plus 5cm}void get\+Message (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ unsigned char $>$ \&}]{message, }
+\item[{int}]{input\+S}
+\end{DoxyParamCaption}
+)}\label{message_8h_a08e6db4e851fc511b7b8f8321908f5d2}
+get the message from the user, character after character $<$unsigned char$>$=\char`\"{}\char`\"{}$>$ 
+\begin{DoxyParams}{Parameters}
+{\em message} & an array to store the message \\
+\hline
+{\em numbers\+In\+Message} & the size of the message (in bytes) \\
+\hline
+\end{DoxyParams}
+\hypertarget{message_8h_af7578bee08f243ac9a45e208f12f89fa}{}\index{message.\+h@{message.\+h}!message\+Expand@{message\+Expand}}
+\index{message\+Expand@{message\+Expand}!message.\+h@{message.\+h}}
+\subsubsection[{message\+Expand(std\+::vector$<$ unsigned char $>$ \&message)}]{\setlength{\rightskip}{0pt plus 5cm}void message\+Expand (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ unsigned char $>$ \&}]{message}
+\end{DoxyParamCaption}
+)}\label{message_8h_af7578bee08f243ac9a45e208f12f89fa}
+expands the message in order to be a multiple of 8 ints (bytes) long ~\newline
+ adds {\ttfamily 0} in the empty indexes \hypertarget{message_8h_a0013bdf489197854c34670d0b4e713cf}{}\index{message.\+h@{message.\+h}!message\+To\+Binary@{message\+To\+Binary}}
+\index{message\+To\+Binary@{message\+To\+Binary}!message.\+h@{message.\+h}}
+\subsubsection[{message\+To\+Binary(bool binary\+Message[64], std\+::vector$<$ unsigned char $>$ \&message, size\+\_\+t from\+Pos)}]{\setlength{\rightskip}{0pt plus 5cm}void message\+To\+Binary (
+\begin{DoxyParamCaption}
+\item[{bool}]{binary\+Message\mbox{[}64\mbox{]}, }
+\item[{std\+::vector$<$ unsigned char $>$ \&}]{message, }
+\item[{size\+\_\+t}]{from\+Pos}
+\end{DoxyParamCaption}
+)}\label{message_8h_a0013bdf489197854c34670d0b4e713cf}
+
+
+converts the message in form of unsigned chars into 64-\/bit binary message 
+
+
+\begin{DoxyParams}{Parameters}
+{\em binary\+Message} & to store the output \\
+\hline
+{\em \&message} & the message to be converted \\
+\hline
+{\em from\+Pos} & to specify from which element of message to start \\
+\hline
+\end{DoxyParams}
+\hypertarget{message_8h_a45a27e23d9cb7d50f88b8a48a444cf66}{}\index{message.\+h@{message.\+h}!padding@{padding}}
+\index{padding@{padding}!message.\+h@{message.\+h}}
+\subsubsection[{padding(int elements\+In\+Message)}]{\setlength{\rightskip}{0pt plus 5cm}int padding (
+\begin{DoxyParamCaption}
+\item[{int}]{elements\+In\+Message}
+\end{DoxyParamCaption}
+)}\label{message_8h_a45a27e23d9cb7d50f88b8a48a444cf66}
+\begin{DoxyReturn}{Returns}
+how many characters we need to add to the message in order to be a multiple of 8 characters long (64 bits) 
+\end{DoxyReturn}
+
+\begin{DoxyParams}{Parameters}
+{\em elements\+In\+Message} & how many elements the message contains \\
+\hline
+\end{DoxyParams}

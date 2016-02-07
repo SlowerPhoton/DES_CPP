@@ -1,0 +1,136 @@
+\begin{theindex}
+
+  \item {binary.\+h}, \hyperpage{5}
+    \subitem {divide\+Binary}, \hyperpage{5}
+    \subitem {overwrite}, \hyperpage{5}
+
+  \indexspace
+
+  \item {call\+Function}
+    \subitem {call\+Function.\+h}, \hyperpage{6}
+  \item {call\+Function.\+h}, \hyperpage{5}
+    \subitem {call\+Function}, \hyperpage{6}
+    \subitem {help}, \hyperpage{6}
+  \item {change\+Root}
+    \subitem {encrypt.\+h}, \hyperpage{10}
+  \item {cin.\+h}, \hyperpage{6}
+    \subitem {clear\+Buffer}, \hyperpage{6}
+    \subitem {is\+\_\+number}, \hyperpage{6}
+    \subitem {trim}, \hyperpage{7}
+  \item {clear\+Buffer}
+    \subitem {cin.\+h}, \hyperpage{6}
+  \item {create\+Subkeys}
+    \subitem {subkeys.\+h}, \hyperpage{13}
+
+  \indexspace
+
+  \item {divide\+Binary}
+    \subitem {binary.\+h}, \hyperpage{5}
+
+  \indexspace
+
+  \item {encode\+Message}
+    \subitem {encode\+Message.\+h}, \hyperpage{7}
+  \item {encode\+Message.\+h}, \hyperpage{7}
+    \subitem {encode\+Message}, \hyperpage{7}
+    \subitem {f}, \hyperpage{7}
+    \subitem {look\+Up\+In\+S\+Box}, \hyperpage{7}
+    \subitem {permutation}, \hyperpage{9}
+    \subitem {X\+O\+R}, \hyperpage{9}
+  \item {encrypt.\+h}, \hyperpage{9}
+    \subitem {change\+Root}, \hyperpage{10}
+    \subitem {encrypt\+Flags}, \hyperpage{10}
+    \subitem {print\+Default\+Settings}, \hyperpage{10}
+    \subitem {print\+Root}, \hyperpage{10}
+  \item {encrypt\+Flags}
+    \subitem {encrypt.\+h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {f}
+    \subitem {encode\+Message.\+h}, \hyperpage{7}
+
+  \indexspace
+
+  \item {get\+Key}
+    \subitem {key.\+h}, \hyperpage{10}
+  \item {get\+Message}
+    \subitem {message.\+h}, \hyperpage{12}
+
+  \indexspace
+
+  \item {help}
+    \subitem {call\+Function.\+h}, \hyperpage{6}
+
+  \indexspace
+
+  \item {is\+\_\+number}
+    \subitem {cin.\+h}, \hyperpage{6}
+
+  \indexspace
+
+  \item {key.\+h}, \hyperpage{10}
+    \subitem {get\+Key}, \hyperpage{10}
+    \subitem {key\+To8\+Bytes}, \hyperpage{10}
+  \item {key\+To8\+Bytes}
+    \subitem {key.\+h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {left\+Shift}
+    \subitem {subkeys.\+h}, \hyperpage{13}
+  \item {look\+Up\+In\+S\+Box}
+    \subitem {encode\+Message.\+h}, \hyperpage{7}
+
+  \indexspace
+
+  \item {message.\+h}, \hyperpage{12}
+    \subitem {get\+Message}, \hyperpage{12}
+    \subitem {message\+Expand}, \hyperpage{12}
+    \subitem {message\+To\+Binary}, \hyperpage{12}
+    \subitem {padding}, \hyperpage{13}
+  \item {message\+Expand}
+    \subitem {message.\+h}, \hyperpage{12}
+  \item {message\+To\+Binary}
+    \subitem {message.\+h}, \hyperpage{12}
+
+  \indexspace
+
+  \item {overwrite}
+    \subitem {binary.\+h}, \hyperpage{5}
+
+  \indexspace
+
+  \item {padding}
+    \subitem {message.\+h}, \hyperpage{13}
+  \item {permutation}
+    \subitem {encode\+Message.\+h}, \hyperpage{9}
+  \item {print\+Default\+Settings}
+    \subitem {encrypt.\+h}, \hyperpage{10}
+  \item {print\+Root}
+    \subitem {encrypt.\+h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {subkeys.\+h}, \hyperpage{13}
+    \subitem {create\+Subkeys}, \hyperpage{13}
+    \subitem {left\+Shift}, \hyperpage{13}
+
+  \indexspace
+
+  \item {to\+Binary}
+    \subitem {type\+Converter.\+h}, \hyperpage{14}
+  \item {to\+Decimal}
+    \subitem {type\+Converter.\+h}, \hyperpage{14}
+  \item {trim}
+    \subitem {cin.\+h}, \hyperpage{7}
+  \item {type\+Converter.\+h}, \hyperpage{13}
+    \subitem {to\+Binary}, \hyperpage{14}
+    \subitem {to\+Decimal}, \hyperpage{14}
+
+  \indexspace
+
+  \item {X\+O\+R}
+    \subitem {encode\+Message.\+h}, \hyperpage{9}
+
+\end{theindex}

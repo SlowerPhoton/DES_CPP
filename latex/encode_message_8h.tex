@@ -1,0 +1,116 @@
+\hypertarget{encode_message_8h}{}\section{encode\+Message.\+h File Reference}
+\label{encode_message_8h}\index{encode\+Message.\+h@{encode\+Message.\+h}}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{encode_message_8h_a6e4603239384aeb26f1362205fe5c402}{encode\+Message} (bool binary\+Message\mbox{[}64\mbox{]}, bool subkeys\mbox{[}16\mbox{]}\mbox{[}48\mbox{]}, bool encrypted\mbox{[}64\mbox{]})
+\item 
+bool \hyperlink{encode_message_8h_a9d7abf20cd0abeee5ec52d0f48c790ad}{X\+O\+R} (bool a, bool b)
+\item 
+void \hyperlink{encode_message_8h_acd9b0f2b4581a1028ef99327adfc6c51}{X\+O\+R} (bool where\mbox{[}$\,$\mbox{]}, bool arr1\mbox{[}$\,$\mbox{]}, bool arr2\mbox{[}$\,$\mbox{]}, int no\+Of\+Numbers)
+\item 
+void \hyperlink{encode_message_8h_a8a711bec5704efa0aa8ed0c62a727eea}{permutation} (int permutation\mbox{[}$\,$\mbox{]}, bool to\+Permute\mbox{[}$\,$\mbox{]}, bool outcome\mbox{[}$\,$\mbox{]}, int size\+Of\+Permutation)
+\item 
+int \hyperlink{encode_message_8h_a26badb23c8b47bb1640e106d6988ab33}{look\+Up\+In\+S\+Box} (int which, bool address\mbox{[}6\mbox{]}, bool binary\+Outcome\mbox{[}4\mbox{]})
+\item 
+void \hyperlink{encode_message_8h_af1988bf60f8afd3e94a38a3b02381ee9}{f} (bool R\mbox{[}32\mbox{]}, bool K\mbox{[}48\mbox{]}, bool outcome\mbox{[}32\mbox{]})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+functions that encode/decode a given input using subkeys 
+
+\subsection{Function Documentation}
+\hypertarget{encode_message_8h_a6e4603239384aeb26f1362205fe5c402}{}\index{encode\+Message.\+h@{encode\+Message.\+h}!encode\+Message@{encode\+Message}}
+\index{encode\+Message@{encode\+Message}!encode\+Message.\+h@{encode\+Message.\+h}}
+\subsubsection[{encode\+Message(bool binary\+Message[64], bool subkeys[16][48], bool encrypted[64])}]{\setlength{\rightskip}{0pt plus 5cm}void encode\+Message (
+\begin{DoxyParamCaption}
+\item[{bool}]{binary\+Message\mbox{[}64\mbox{]}, }
+\item[{bool}]{subkeys\mbox{[}16\mbox{]}\mbox{[}48\mbox{]}, }
+\item[{bool}]{encrypted\mbox{[}64\mbox{]}}
+\end{DoxyParamCaption}
+)}\label{encode_message_8h_a6e4603239384aeb26f1362205fe5c402}
+encodes the message 
+\begin{DoxyParams}{Parameters}
+{\em binary\+Message} & message of 64 bytes to be encoded \\
+\hline
+{\em subkeys} & used to encrypt \\
+\hline
+{\em encrypted} & output array to save the encrypted message \\
+\hline
+\end{DoxyParams}
+\hypertarget{encode_message_8h_af1988bf60f8afd3e94a38a3b02381ee9}{}\index{encode\+Message.\+h@{encode\+Message.\+h}!f@{f}}
+\index{f@{f}!encode\+Message.\+h@{encode\+Message.\+h}}
+\subsubsection[{f(bool R[32], bool K[48], bool outcome[32])}]{\setlength{\rightskip}{0pt plus 5cm}void f (
+\begin{DoxyParamCaption}
+\item[{bool}]{R\mbox{[}32\mbox{]}, }
+\item[{bool}]{K\mbox{[}48\mbox{]}, }
+\item[{bool}]{outcome\mbox{[}32\mbox{]}}
+\end{DoxyParamCaption}
+)}\label{encode_message_8h_af1988bf60f8afd3e94a38a3b02381ee9}
+used in the algorithm of encoding message \hypertarget{encode_message_8h_a26badb23c8b47bb1640e106d6988ab33}{}\index{encode\+Message.\+h@{encode\+Message.\+h}!look\+Up\+In\+S\+Box@{look\+Up\+In\+S\+Box}}
+\index{look\+Up\+In\+S\+Box@{look\+Up\+In\+S\+Box}!encode\+Message.\+h@{encode\+Message.\+h}}
+\subsubsection[{look\+Up\+In\+S\+Box(int which, bool address[6], bool binary\+Outcome[4])}]{\setlength{\rightskip}{0pt plus 5cm}int look\+Up\+In\+S\+Box (
+\begin{DoxyParamCaption}
+\item[{int}]{which, }
+\item[{bool}]{address\mbox{[}6\mbox{]}, }
+\item[{bool}]{binary\+Outcome\mbox{[}4\mbox{]}}
+\end{DoxyParamCaption}
+)}\label{encode_message_8h_a26badb23c8b47bb1640e106d6988ab33}
+finds with address (array of 6 bits) in S-\/boxes its corresponding number (array of 4 bits) 
+\begin{DoxyParams}{Parameters}
+{\em which} & which S-\/box should we look at \\
+\hline
+{\em address} & address used to find the correct index \\
+\hline
+{\em binary\+Outcome} & array to save the answer \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the answer in decimal 
+\end{DoxyReturn}
+\hypertarget{encode_message_8h_a8a711bec5704efa0aa8ed0c62a727eea}{}\index{encode\+Message.\+h@{encode\+Message.\+h}!permutation@{permutation}}
+\index{permutation@{permutation}!encode\+Message.\+h@{encode\+Message.\+h}}
+\subsubsection[{permutation(int permutation[], bool to\+Permute[], bool outcome[], int size\+Of\+Permutation)}]{\setlength{\rightskip}{0pt plus 5cm}void permutation (
+\begin{DoxyParamCaption}
+\item[{int}]{permutation\mbox{[}$\,$\mbox{]}, }
+\item[{bool}]{to\+Permute\mbox{[}$\,$\mbox{]}, }
+\item[{bool}]{outcome\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{size\+Of\+Permutation}
+\end{DoxyParamCaption}
+)}\label{encode_message_8h_a8a711bec5704efa0aa8ed0c62a727eea}
+permute an array according to an array of permutations 
+\begin{DoxyParams}{Parameters}
+{\em to\+Permute} & the array to be permuted \\
+\hline
+{\em permutation} & the table of permutation \\
+\hline
+\end{DoxyParams}
+\hypertarget{encode_message_8h_a9d7abf20cd0abeee5ec52d0f48c790ad}{}\index{encode\+Message.\+h@{encode\+Message.\+h}!X\+O\+R@{X\+O\+R}}
+\index{X\+O\+R@{X\+O\+R}!encode\+Message.\+h@{encode\+Message.\+h}}
+\subsubsection[{X\+O\+R(bool a, bool b)}]{\setlength{\rightskip}{0pt plus 5cm}bool X\+O\+R (
+\begin{DoxyParamCaption}
+\item[{bool}]{a, }
+\item[{bool}]{b}
+\end{DoxyParamCaption}
+)}\label{encode_message_8h_a9d7abf20cd0abeee5ec52d0f48c790ad}
+adds two bools together using the X\+O\+R addition \begin{DoxyReturn}{Returns}
+result of the addition 
+\end{DoxyReturn}
+\hypertarget{encode_message_8h_acd9b0f2b4581a1028ef99327adfc6c51}{}\index{encode\+Message.\+h@{encode\+Message.\+h}!X\+O\+R@{X\+O\+R}}
+\index{X\+O\+R@{X\+O\+R}!encode\+Message.\+h@{encode\+Message.\+h}}
+\subsubsection[{X\+O\+R(bool where[], bool arr1[], bool arr2[], int no\+Of\+Numbers)}]{\setlength{\rightskip}{0pt plus 5cm}void X\+O\+R (
+\begin{DoxyParamCaption}
+\item[{bool}]{where\mbox{[}$\,$\mbox{]}, }
+\item[{bool}]{arr1\mbox{[}$\,$\mbox{]}, }
+\item[{bool}]{arr2\mbox{[}$\,$\mbox{]}, }
+\item[{int}]{no\+Of\+Numbers}
+\end{DoxyParamCaption}
+)}\label{encode_message_8h_acd9b0f2b4581a1028ef99327adfc6c51}
+adds two bool arrays together using the X\+O\+R addition 
+\begin{DoxyParams}{Parameters}
+{\em where} & output array to save the result \\
+\hline
+{\em no\+Of\+Numbers} & how many indexes are in the arrays \\
+\hline
+\end{DoxyParams}
